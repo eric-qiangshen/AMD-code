@@ -203,17 +203,17 @@ t1 = tic;
 if (NNorm == 1)
     u_lane_1_time = toc(t1)
     u_lane_1 = u
-	save('u_lane_1_resp', 'u_lane_1', 'u_lane_1_time')
+	save('u_lane_1_result', 'u_lane_1', 'u_lane_1_time')
 elseif (NNorm == 2)
     u_lane_2_time = toc(t1)
     u_lane_2 = u
-    save('u_lane_2_resp', 'u_lane_2', 'u_lane_2_time')
+    save('u_lane_2_result', 'u_lane_2', 'u_lane_2_time')
 elseif (NNorm == inf)
     u_lane_inf_time = toc(t1)
     u_lane_inf = u
-    save('u_lane_inf_resp','u_lane_inf','u_lane_inf_time')
+    save('u_lane_inf_result','u_lane_inf','u_lane_inf_time')
 elseif (NNorm == 3)
     u_lane_1inf_time = toc(t1)
     u_lane_1inf = u
-    save('u_lane_1inf_resp', 'u_lane_1inf', 'u_lane_1inf_time')
+    save('u_lane_1inf_result', 'u_lane_1inf', 'u_lane_1inf_time')
 end
