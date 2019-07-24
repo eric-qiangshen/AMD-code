@@ -6,7 +6,7 @@
 % Cyber-Physical Systems, PP. 297-307, arXiv:1702.01112
 %
 % Initial code is from Ding, Y., Harirchi F., Yong, S. Z., Jacobsen, E., and Ozay, N.
-% Edited by Q. Shen
+% Edited by Shen, Q.
 % Jun 22nd, 2019 
 
 function [ustar, sol] = Exact_get_u_respon(modes, bounds, T, epsi, NNorm)
