@@ -1,6 +1,6 @@
 # AMD - Toolbox for computing separating input in set-membership identification of affine systems
 
-This is the code of active model discrimination that computes the separating input for set-membership identification of affine systems. Please refer to the reference: 
+This is the code of active model discrimination (AMD) that computes the separating input for set-membership identification of affine systems. Please refer to the reference: 
 
 Ding, Y., Harirchi F., Yong, S. Z., Jacobsen, E., and Ozay, N. (2018). Optimal input design for affine model discrimination with applications in intention-aware vehicles, in Proceedings of the 9th ACM/IEEE International Conference on Cyber-Physical Systems, PP. 297-307, arXiv:1702.01112.
 
