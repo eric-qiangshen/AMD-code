@@ -159,19 +159,19 @@ t1 = tic;
 if (NNorm == 1)
     u_int_1_time=toc(t1)
     u_int_1=u
-	save('u_int_1_resp','u_int_1','u_int_1_time')
+	save('u_int_1_result','u_int_1','u_int_1_time')
 elseif (NNorm == 2)
     u_int_2_time=toc(t1)
     u_int_2=u
-    save('u_int_2_resp','u_int_2','u_int_2_time')
+    save('u_int_2_result','u_int_2','u_int_2_time')
 elseif (NNorm == inf)
     u_int_inf_time=toc(t1)
     u_int_inf=u
-    save('u_int_inf_resp','u_int_inf','u_int_inf_time')
+    save('u_int_inf_result','u_int_inf','u_int_inf_time')
 elseif (NNorm == 3) % 1-norm + 2*inf-norm
     u_int_1inf_time=toc(t1)
     u_int_1inf=u
-    save('u_int_1inf_resp','u_int_1inf','u_int_1inf_time')
+    save('u_int_1inf_result','u_int_1inf','u_int_1inf_time')
 end
 
 
