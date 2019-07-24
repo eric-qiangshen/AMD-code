@@ -190,14 +190,14 @@ t1 = tic;
 %  OUTER problem with ego repsonsibility: Robust Optimization; 
 %  INNER problem: KKT
 
-% [u,sol] = Exact_get_u_respon(modes, bounds, T_hor, epsi, NNorm);
+[u,sol] = Exact_get_u_respon(modes, bounds, T_hor, epsi, NNorm);
 
 %% Conservative method: Robust Otpimization
 %  Reference: Harirchi, F., Yong, S. Z., Jacobsen E., and Ozay, N. (2017)
 %  Active model discrimination with applications to fraud detection in
 %  smart buildings, In IFAC World Congress, Toulouse, France.
 
-[u,sol] = optimal_input_noise(modes, bounds, T_hor, epsi, NNorm);
+% [u,sol] = optimal_input_noise(modes, bounds, T_hor, epsi, NNorm);
 
 %% Save results
 if (NNorm == 1)
