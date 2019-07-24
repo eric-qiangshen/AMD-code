@@ -6,6 +6,7 @@ Ding, Y., Harirchi F., Yong, S. Z., Jacobsen, E., and Ozay, N. (2018). Optimal i
 
 ## List of capabilities: 
 
+ - Driver intention estimation for two driving scenario: lane changing and intersection crossing
  - Concatenate the affine dynamics over a finite horizon and a finite number of model/member pairs
  - Convert semi-infinite constraint to linear constraint by leveraging robust optimization
  - Implement double negation to find equivalence of the (non-convex) separability condition 
