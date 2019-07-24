@@ -6,7 +6,7 @@ Ding, Y., Harirchi F., Yong, S. Z., Jacobsen, E., and Ozay, N. (2018). Optimal i
 
 ## List of capabilities: 
 
- - Concantenating the affine dynamics over a finite horizon and a finite number of model/member pairs
+ - Concatenate the affine dynamics over a finite horizon and a finite number of model/member pairs
  - Convert semi-infinite constraint to linear constraint by leveraging robust optimization
  - Implement double negation to find equivalence of the (non-convex) separability condition 
  - Solve a mixed integer linear program (MILP) to get the separating input for set-membership identification
