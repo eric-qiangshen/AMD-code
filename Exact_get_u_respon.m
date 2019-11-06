@@ -102,7 +102,7 @@ for i = 1:N-1
     fbar_y(:,i) = kron(ones(T,1), modes(i).sys.mode(1).f(n_x+1:n));
     
     for j = i+1:N
-        q = q+1; % pair index; q=1 ==> (1,2), q=2 ==> (1,3), q=1 ==> (2,3),
+        q = q+1; % pair index; q=1 ==> (1,2), q=2 ==> (1,3), q=3 ==> (2,3),
         % Concatenate the polytope matrices
         Pbar_y{q} = blkdiag(kron(eye(T), modes(i).bounds.P_y), kron(eye(T), modes(j).bounds.P_y));
         pbar_y{q} = [kron(ones(T,1), modes(i).bounds.p_y); kron(ones(T,1), modes(j).bounds.p_y)];
