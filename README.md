@@ -17,7 +17,7 @@ Ding, Y., Harirchi F., Yong, S. Z., Jacobsen, E., and Ozay, N. (2018). Optimal i
      detection in smart buildings. IFAC-PapersOnLine, 50(1):9527-9534.
 
 ## Requirements
- - Recent version of Matlab
+ - Matlab 2018b
  - Optimizaiton modeling toolbox, Yalmip (https://yalmip.github.io/download/)
- - Solver: Gurobi for solving LP and supporting SOS-1 constraint (https://www.gurobi.com/)
+ - Solver: Gurobi 7.5.2 for solving LP and supporting SOS-1 constraint (https://www.gurobi.com/)
 
